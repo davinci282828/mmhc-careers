@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers at MMHC &amp; Authenticity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Manrope:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+:root{
+--font-heading:'DM Serif Display',Georgia,serif;
+--font-body:'Manrope',system-ui,sans-serif;
+--text-eyebrow:13px;--tracking-eyebrow:.14em;
+--text-h1:clamp(40px,6.4vw,72px);--leading-h1:1.05;--tracking-h1:-.01em;
+--text-h2:clamp(32px,4.2vw,48px);--leading-h2:1.12;
+--text-lead:clamp(17px,1.6vw,20px);--text-body:16px;--text-small:14px;--leading-body:1.65;
+--color-body:#3F4E48;--color-heading:#14302A;--color-label:#5B6B64;--color-eyebrow:#2F5E4E;
+--color-link:#14302A;--color-link-hover:#2F5E4E;
+--color-on-dark-heading:#F5F3EC;--color-on-dark-body:#E4E9E2;--color-on-dark-eyebrow:#D6F26B;
+--color-on-accent-eyebrow:#2F5E4E;--color-on-accent-heading:#14302A;
+--surface-page:#FFFFFF;--surface-strong:#14302A;--surface-accent:#D6F26B;--surface-mint:#E9EEE3;
+--surface-card:#FFFFFF;--surface-card-mint:#F2F6EC;
+--border-default:#E3DFD3;--border-accent:#D6F26B;
+--mmhc-overlay-white-4:rgba(255,255,255,.04);--mmhc-overlay-white-14:rgba(255,255,255,.14);--mmhc-overlay-white-45:rgba(255,255,255,.45);
+--badge-number-strong-bg:#14302A;--badge-number-strong-fg:#FFFFFF;
+}
+</style>
+<style>
+
+html{scroll-behavior:smooth}
+body{margin:0;background:#FFFFFF;color:var(--color-body);font-family:var(--font-body)}
+a{color:var(--color-link)}
+a:hover{color:var(--color-link-hover)}
+*{box-sizing:border-box}
+@keyframes careersDraw{to{stroke-dashoffset:0}}
+@keyframes careersPop{from{opacity:0;scale:0}to{opacity:1;scale:1}}
+@keyframes careersFade{from{opacity:0}to{opacity:1}}
+@keyframes careersOrbit{to{rotate:360deg}}
+@keyframes careersRing{0%{opacity:0;scale:0.9}100%{opacity:1;scale:1}}
+[data-orbit]{animation:careersOrbit 60s linear infinite}
+[data-orbit="rev"]{animation-duration:90s;animation-direction:reverse}
+[data-ring]{animation:careersRing 1.4s cubic-bezier(.22,1,.36,1) both}
+@media (max-width:1100px){[data-hero-decor]{max-width:340px !important}[data-hero-mark]{scale:0.78}}
+@media (max-width:900px){[data-hero-decor]{max-width:270px !important}[data-hero-mark]{scale:0.62}}
+[data-hero-grid]>div:first-child{position:relative;z-index:1}
+@media (max-width:766px){
+#top{padding:1.5rem 20px 2.5rem !important}
+[data-hero-grid]{grid-template-columns:minmax(0,1fr) !important;gap:0 !important}
+[data-hero-decor]{order:-1;justify-self:end !important;max-width:210px !important;margin:0 -64px 0.5rem 0 !important}
+[data-hero-mark]{scale:0.46}
+[data-hero-leaf],[data-hero-bgleaf]{display:none}
+[data-hero-btn]{width:100% !important;max-width:350px}
+}
+@media (prefers-reduced-motion: reduce){[data-orbit],[data-ring]{animation:none !important}}
+@media (prefers-reduced-motion: reduce){[data-careers-anim]{animation:none !important;stroke-dashoffset:0 !important;opacity:1 !important;scale:1 !important}}
+
+</style>
+<style>
+[data-enter]{animation:careersFade .7s cubic-bezier(.22,1,.36,1) both}
+[data-enter="up"]{animation-name:careersUp}
+@keyframes careersUp{from{opacity:0;translate:0 18px}to{opacity:1;translate:0 0}}
+[data-enter="pop"]{animation:careersPop .7s cubic-bezier(.22,1,.36,1) both}
+[data-sway]{animation:careersSway 9s ease-in-out infinite}
+@keyframes careersSway{0%,100%{rotate:-2deg}50%{rotate:3deg}}
+[data-breathe]{animation:careersBreathe 7s ease-in-out infinite}
+@keyframes careersBreathe{0%,100%{scale:1}50%{scale:1.05}}
+[data-lift]{transition:translate .3s ease,box-shadow .3s ease}
+[data-lift]:hover{translate:0 -4px;box-shadow:0 14px 34px rgba(20,48,42,.12)}
+@media (prefers-reduced-motion: reduce){[data-enter],[data-sway],[data-breathe]{animation:none !important}[data-lift]{transition:none !important}}
+</style>
+</head>
+<body>
+
+<div style="background:var(--surface-page);overflow-x:hidden">
+
+  <header style="padding:0.75rem 24px;background:var(--surface-page);border-bottom:1px solid var(--border-default)">
+    <div style="max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1em;flex-wrap:wrap">
+      <a href="https://manhattanmentalhealthcounseling.com/" style="display:flex;flex-direction:column;justify-content:center;line-height:1.05;text-decoration:none;height:48px"><span style="font-family:var(--font-heading);font-size:21px;white-space:nowrap;color:#14302A">Manhattan Mental Health</span><span style="font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#2F5E4E;font-weight:600;margin-top:3px">Counseling</span></a>
+      <div style="display:flex;align-items:center;gap:1.5em;flex-wrap:wrap">
+        <a href="#roles" style="font-weight:700;font-size:var(--text-body);text-decoration:none">Open Positions</a>
+        <a href="#why" style="font-weight:700;font-size:var(--text-body);text-decoration:none">Why MMHC</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="top" data-screen-label="Hero" style="position:relative;display:flex;align-items:center;padding:3rem 24px;background:var(--surface-strong);overflow:hidden">
+    <div data-sway="1" data-hero-bgleaf="1" style="position:absolute;width:420px;height:420px;border-radius:0 100% 0 100%;background:var(--mmhc-overlay-white-4);transform:rotate(-18deg);left:-170px;top:-190px;pointer-events:none"></div>
+    <div style="position:relative;width:100%;max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,0.9fr);gap:1rem 3rem;align-items:center" data-hero-grid="1">
+      <div style="max-width:540px;display:flex;flex-direction:column;gap:1.5rem">
+        <div data-enter="up" style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-on-dark-eyebrow)">Careers at MMHC &amp; Authenticity</div>
+        <h1 data-enter="up" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:var(--text-h1);line-height:var(--leading-h1);letter-spacing:var(--tracking-h1);color:var(--color-on-dark-heading);text-wrap:pretty;animation-delay:90ms">Do Your Best Work. Help Build Better Care.</h1>
+        <p data-enter="up" style="margin:0;font-size:var(--text-lead);line-height:var(--leading-body);color:var(--color-on-dark-body);text-wrap:pretty;animation-delay:180ms">We’re growing a mental healthcare organization for people who want to keep getting better at what they do. Join us in clinical care, operations, technology or product, and help make excellent therapy more accessible.</p>
+        <div data-enter="up" style="display:flex;flex-wrap:wrap;align-items:center;gap:1em;margin-top:1rem;animation-delay:270ms">
+          <div data-hero-btn="1" style="width:240px"><a href="#roles" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Open Positions</a></div>
+        </div>
+      </div>
+      <div data-hero-decor="1" style="position:relative;width:100%;max-width:440px;aspect-ratio:1/1;justify-self:center;margin:0;pointer-events:none">
+        <div data-ring="1" style="position:absolute;inset:-22%;border-radius:50%;border:1px solid var(--mmhc-overlay-white-14);animation-delay:500ms"></div>
+        <div data-ring="1" style="position:absolute;inset:-9%;border-radius:50%;border:1px solid var(--mmhc-overlay-white-14);animation-delay:350ms"></div>
+        <div data-enter="pop" style="position:absolute;inset:6%;animation-delay:150ms">
+          <div data-breathe="1" style="width:100%;height:100%;border-radius:50%;background:var(--surface-accent)"></div>
+        </div>
+        <div data-orbit="1" style="position:absolute;inset:-9%">
+          <div style="position:absolute;width:7%;aspect-ratio:1/1;left:50%;top:0;translate:-50% -50%;border-radius:50%;background:var(--surface-mint)"></div>
+        </div>
+        <div data-orbit="rev" style="position:absolute;inset:-22%">
+          <div style="position:absolute;width:4%;aspect-ratio:1/1;left:14.6%;top:14.6%;translate:-50% -50%;border-radius:50%;background:var(--surface-accent)"></div>
+        </div>
+        <div data-enter="pop" data-hero-leaf="1" style="position:absolute;width:26%;aspect-ratio:1/1;right:-4%;bottom:-2%;animation-delay:320ms">
+          <div data-sway="1" style="width:100%;height:100%;border-radius:0 100% 0 100%;background:var(--surface-mint);transform:rotate(18deg)"></div>
+        </div>
+        <div data-enter="pop" data-hero-mark="1" style="position:absolute;inset:6%;display:flex;align-items:center;justify-content:center;animation-delay:600ms">
+          <svg width="160" height="160" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:block"><path d="M50 4 C74 18 92 38 92 50 C92 62 74 82 50 96 C26 82 8 62 8 50 C8 38 26 18 50 4 Z" fill="#14302A"></path><circle cx="50" cy="50" r="10" fill="#F5F3EC"></circle></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="roles" data-screen-label="Find your role" style="padding:3rem 24px;background:var(--surface-mint)">
+    <div style="max-width:1180px;margin:0 auto">
+      <div style="margin-bottom:1.5rem;text-align:center">
+        <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Open Positions</div>
+        <h2 style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:var(--text-h2);line-height:var(--leading-h2);color:var(--color-heading)">Find Your Role.</h2>
+        <p style="margin:1em auto 0;max-width:40em;font-size:var(--text-body);line-height:var(--leading-body);color:var(--color-label);text-wrap:pretty">Manhattan Mental Health Counseling provides online therapy across New York. Authenticity supports MMHC with technology and practice operations.</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1em">
+        
+          <div data-lift="1" style="flex:1 1 380px;max-width:570px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);border-left:3px solid var(--border-accent);background:var(--surface-card)">
+            <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Clinical Care · MMHC</div>
+            <h3 data-h="sub" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:1.5rem;line-height:var(--leading-h2);color:var(--color-heading);text-wrap:pretty"><span style="background:transparent;border-radius:3px">Licensed Mental Health Counselor (LMHC)</span></h3>
+            
+            <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Full-time</span>
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Remote · New York State</span>
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Active NY LMHC</span>
+              
+            </div>
+            <p style="margin:0;flex:1;font-size:var(--text-body);line-height:var(--leading-body);text-wrap:pretty"><span style="background:transparent;border-radius:3px">A full caseload of individual adult clients by online therapy, with weekly peer consultation, AI-supported documentation and a path to clinical supervision.</span></p>
+            
+            <div style="flex:1"></div>
+            <a href="https://manhattanmentalhealthcounseling.com/mental-health-counselor-jobs/" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Role and Apply</a>
+          </div>
+        
+
+          <div data-lift="1" style="flex:1 1 380px;max-width:570px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);border-left:3px solid var(--border-accent);background:var(--surface-card)">
+            <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Clinical Care · MMHC</div>
+            <h3 data-h="sub" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:1.5rem;line-height:var(--leading-h2);color:var(--color-heading);text-wrap:pretty"><span style="background:transparent;border-radius:3px">Mental Health Counselor, Limited Permit (MHC-LP)</span></h3>
+            
+            <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Full-time</span>
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Remote · New York State</span>
+              
+                <span style="padding:0.5rem 0.9rem;border-radius:50px;background:var(--surface-mint);font-size:var(--text-small);font-weight:600;color:var(--color-heading)">Valid MHC-LP</span>
+              
+            </div>
+            <p style="margin:0;flex:1;font-size:var(--text-body);line-height:var(--leading-body);text-wrap:pretty"><span style="background:transparent;border-radius:3px">Grow your skills, confidence and experience with adult clients via telehealth, with direct and peer supervision, monthly workshops and full administrative support.</span></p>
+            
+            <div style="flex:1"></div>
+            <a href="https://manhattanmentalhealthcounseling.com/limited-permit-mental-health-counseling-jobs-nyc/" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Role and Apply</a>
+          </div>
+        
+
+          <div data-lift="1" style="flex:1 1 380px;max-width:570px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);border-left:3px solid var(--border-accent);background:var(--surface-card)">
+            <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Operations and People · Authenticity</div>
+            <h3 data-h="sub" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:1.5rem;line-height:var(--leading-h2);color:var(--color-heading);text-wrap:pretty"><span style="background:transparent;border-radius:3px">People Operations Coordinator</span></h3>
+            
+            <div style="flex:1"></div>
+            <a href="#" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Role and Apply</a>
+          </div>
+        
+
+          <div data-lift="1" style="flex:1 1 380px;max-width:570px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);border-left:3px solid var(--border-accent);background:var(--surface-card)">
+            <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Operations and People · Authenticity</div>
+            <h3 data-h="sub" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:1.5rem;line-height:var(--leading-h2);color:var(--color-heading);text-wrap:pretty"><span style="background:transparent;border-radius:3px">Medical Receptionist</span></h3>
+            
+            <div style="flex:1"></div>
+            <a href="#" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Role and Apply</a>
+          </div>
+        
+
+          <div data-lift="1" style="flex:1 1 380px;max-width:570px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);border-left:3px solid var(--border-accent);background:var(--surface-card)">
+            <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Technology and Product · Authenticity</div>
+            <h3 data-h="sub" style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:1.5rem;line-height:var(--leading-h2);color:var(--color-heading);text-wrap:pretty"><span style="background:transparent;border-radius:3px">Product Engineer</span></h3>
+            
+            <div style="flex:1"></div>
+            <a href="#" style="display:flex;align-items:center;justify-content:center;width:100%;height:48px;background:#D6F26B;color:#14302A;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Role and Apply</a>
+          </div>
+        
+      </div>
+      <p style="margin:1.5rem auto 0;max-width:920px;text-align:center;font-size:var(--text-body);line-height:var(--leading-body);color:var(--color-label);text-wrap:pretty">All roles are fully remote.</p>
+    </div>
+  </section>
+
+  <section id="why" data-screen-label="Why here" style="padding:3rem 24px">
+    <div style="max-width:1180px;margin:0 auto">
+      <div style="margin-bottom:1.5rem;text-align:center">
+        <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-eyebrow)">Why MMHC</div>
+        <h2 style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:var(--text-h2);line-height:var(--leading-h2);color:var(--color-heading)">Why Build Your Career Here?</h2>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1em">
+        
+          <div style="flex:1 1 300px;max-width:380px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);background:var(--surface-card-mint)">
+            <span style="width:34px;height:34px;border-radius:50%;background:var(--badge-number-strong-bg);color:var(--badge-number-strong-fg);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:var(--text-body)">1</span>
+            <h3 data-h="card" style="margin:0;font-family:var(--font-body);font-size:1.1rem;font-weight:700;color:var(--color-heading)">Work on something that matters.</h3>
+            <p style="margin:0;font-size:var(--text-body);line-height:var(--leading-body);text-wrap:pretty">Help make thoughtful, insurance-covered therapy easier to access. Whether you provide care, improve operations or build technology, your work contributes to that goal.</p>
+          </div>
+        
+
+          <div style="flex:1 1 300px;max-width:380px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);background:var(--surface-card-mint)">
+            <span style="width:34px;height:34px;border-radius:50%;background:var(--badge-number-strong-bg);color:var(--badge-number-strong-fg);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:var(--text-body)">2</span>
+            <h3 data-h="card" style="margin:0;font-family:var(--font-body);font-size:1.1rem;font-weight:700;color:var(--color-heading)">Bring ideas. Take responsibility.</h3>
+            <p style="margin:0;font-size:var(--text-body);line-height:var(--leading-body);text-wrap:pretty">We’re looking for people who notice what could work better and help improve it. Bring your judgment, take ownership of your work and turn good ideas into practical results.</p>
+          </div>
+        
+
+          <div style="flex:1 1 300px;max-width:380px;display:flex;flex-direction:column;gap:1em;padding:2rem;border-radius:15px;border:1px solid var(--border-default);background:var(--surface-card-mint)">
+            <span style="width:34px;height:34px;border-radius:50%;background:var(--badge-number-strong-bg);color:var(--badge-number-strong-fg);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:var(--text-body)">3</span>
+            <h3 data-h="card" style="margin:0;font-family:var(--font-body);font-size:1.1rem;font-weight:700;color:var(--color-heading)">Keep getting better.</h3>
+            <p style="margin:0;font-size:var(--text-body);line-height:var(--leading-body);text-wrap:pretty">Clinicians develop through supervision, peer consultation and training. Across every team, we value curiosity, thoughtful feedback and the drive to improve your craft.</p>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section data-screen-label="Ambition" style="position:relative;padding:4rem 24px;background:var(--surface-accent);overflow:hidden">
+    <div data-breathe="1" style="position:absolute;width:520px;height:520px;border-radius:50%;background:var(--mmhc-overlay-white-45);right:-220px;top:-240px;pointer-events:none"></div>
+    <div style="position:relative;max-width:920px;margin:0 auto;text-align:center;display:flex;flex-direction:column;gap:1em;align-items:center">
+      <div style="font-size:var(--text-eyebrow);font-weight:700;letter-spacing:var(--tracking-eyebrow);text-transform:uppercase;color:var(--color-on-accent-eyebrow)">Who We Look For</div>
+      <h2 style="margin:0;font-family:var(--font-heading);font-weight:700;font-size:var(--text-h2);line-height:var(--leading-h2);color:var(--color-heading)">Ambition With Purpose.</h2>
+      <p style="margin:0;font-size:var(--text-lead);line-height:var(--leading-body);color:var(--color-on-accent-heading);max-width:40em;text-wrap:pretty">We look for people who want to become excellent at what they do and take on meaningful responsibility. You ask good questions, act on feedback and follow through. As we grow, help us build an organization that gets better with every step.</p>
+      <div style="margin-top:0.5rem;display:flex;justify-content:center;width:100%">
+        <a href="#roles" style="display:flex;align-items:center;justify-content:center;width:100%;max-width:350px;height:48px;background:#1F4A2C;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:16px;border-radius:999px">View Open Positions</a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="background:#0E221D;color:#DCE3DB;padding:64px 24px 32px"><div style="max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:40px"><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:32px;font-size:15px;line-height:1.7"><div style="display:flex;flex-direction:column;gap:10px"><span style="font-family:var(--font-heading);font-size:22px;color:#FFFFFF">Manhattan Mental Health Counseling</span><span>Authenticity supports MMHC with technology and practice operations.</span></div><div style="display:flex;flex-direction:column;gap:4px"><span style="color:#D6F26B;font-weight:700">Contact</span><span>303 Fifth Avenue Suite 1108, New York, NY 10016</span><a href="tel:2129608626" style="color:#FFFFFF">212-960-8626</a><span>Monday - Thursday, 9:00am - 5:30pm</span><span>Friday, 9:00am - 5:00pm</span></div><div style="display:flex;flex-direction:column;gap:4px"><span style="color:#D6F26B;font-weight:700">Careers</span><a href="https://manhattanmentalhealthcounseling.com/mental-health-counselor-jobs/" style="color:#DCE3DB">Licensed Therapists (LMHC) Position</a><a href="https://manhattanmentalhealthcounseling.com/limited-permit-mental-health-counseling-jobs-nyc/" style="color:#DCE3DB">Limited Permit Holders Role</a></div><div style="display:flex;flex-direction:column;gap:4px"><span style="color:#D6F26B;font-weight:700">More</span><a href="https://manhattanmentalhealthcounseling.com/privacy-policy/" style="color:#DCE3DB">Privacy Notice</a><a href="https://manhattanmentalhealthcounseling.com/page-index/" style="color:#DCE3DB">Page Index</a><a href="https://manhattanmentalhealthcounseling.com/emergency-resources/" style="color:#DCE3DB">Emergency Resources</a></div></div><div style="border-top:1px solid #2A4139;padding-top:20px;font-size:13px;color:#A9B7AF">Copyright © 2026 Manhattan Mental Health Counseling LLC</div></div></footer>
+</div>
+
+
+</body>
+</html>
